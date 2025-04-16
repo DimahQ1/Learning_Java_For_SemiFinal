@@ -7,7 +7,7 @@ public class Main {
             for( j = 1; j <= 10; j++){
                 if(i * j >= i * i){
                     System.out.print("\t" + j * i);
-                    System.out.print("Hello Java");
+                    System.out.print("Goodbye Java");
                 }
             }
             System.out.println('\n');
