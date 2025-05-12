@@ -1,16 +1,16 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
+import java.util.*;
+
 public class Main {
     public static void main(String[] args) {
-        int j = 1;
-        for(int i = 1; i <= 10; i++){
-            for( j = 1; j <= 10; j++){
-                if(i * j >= i * i){
-                    System.out.print("\t" + j * i);
-                    System.out.print("Goodbye Java");
-                }
-            }
-            System.out.println('\n');
-        }
+        System.out.printf("Hi how are you my name is: ");
+        System.out.printf("Sepehr can you \n");
+        System.out.printf("Be my baby");
+        int x = 2007;
+        double y = 181.21111123123;
+        float z = 12.6f;
+
+        System.out.printf("\nx = %d, y = %.2f, z = %f \n", x , y, z);
+        System.out.printf("y = %e, z = %e", y, z);
     }
 }
