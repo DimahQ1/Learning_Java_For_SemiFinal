@@ -15,6 +15,7 @@ public class studentInfo {
 
         boolean isOk = true;
         while(isOk){
+            System.out.println("git ali");
             System.out.println("Enter Student name: ");
             name = scanner.nextLine();
             if(name.isEmpty() || name.isBlank() || name.startsWith(" ")){
